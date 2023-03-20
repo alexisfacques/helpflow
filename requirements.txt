@@ -1,4 +1,4 @@
-custom_connector_sdk-1.0.4@git+git://github.com/awslabs/aws-appflow-custom-connector-python@main
+custom_connector_sdk@git+ssh://github.com/awslabs/aws-appflow-custom-connector-python.git@main
 antlr4-python3-runtime==4.9.2
 python-dateutil==2.8.2
 six==1.16.0
