@@ -1,0 +1,9 @@
+git+https://github.com/awslabs/aws-appflow-custom-connector-python@main
+antlr4-python3-runtime==4.9.2
+python-dateutil==2.8.2
+six==1.16.0
+urllib3==1.26.6
+awslambdaric==1.2.2
+boto3~=1.20.47
+jsonschema==4.1.2
+cachetools==5.3.0
