@@ -6,7 +6,7 @@ import os
 # From local modules:
 from custom_connector_sdk.lambda_handler.lambda_handler import BaseLambdaConnectorHandler
 
-from .configuration_handler import ConfigurationHandler
+from .configuration_resolver import ConfigurationResolver
 from .helpflow_resolver import HelpFlowResolver
 
 
@@ -18,5 +18,5 @@ def lambda_handler(event, context):
     import_module(f'{EXTENSIONS_DIR}', __name__)
 
     helpflow: HelpFlowResolver = HelpFlowResolver()
-    configuration: ConfigurationHandler = ConfigurationHandler()
+    configuration: ConfigurationResolver = ConfigurationResolver()
     return BaseLambdaConnectorHandler(helpflow, helpflow, configuration).lambda_handler(event, context)

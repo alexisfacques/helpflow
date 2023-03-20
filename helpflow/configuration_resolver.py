@@ -35,7 +35,7 @@ CONNECTOR_NAME: str = os.environ['CONNECTOR_NAME']
 CONNECTOR_VERSION: str = os.environ['CONNECTOR_VERSION']
 
 
-class HelpFlowConfigurationResolver(ConfigurationHandler):
+class ConfigurationResolver(ConfigurationHandler):
     """Skillcorner Configuration Handler."""
     def validate_connector_runtime_settings(self, request: ValidateConnectorRuntimeSettingsRequest) \
             -> ValidateConnectorRuntimeSettingsResponse:
