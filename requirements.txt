@@ -1,4 +1,4 @@
-custom_connector_sdk @ git+https://github.com/awslabs/aws-appflow-custom-connector-python.git@main
+amazon-appflow-custom-connector-sdk @ git+https://github.com/awslabs/aws-appflow-custom-connector-python.git@main
 antlr4-python3-runtime==4.9.2
 python-dateutil==2.8.2
 six==1.16.0
